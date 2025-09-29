@@ -1,0 +1,47 @@
+body {
+font-family: 'Old Standard TT' ;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+background-color: #f0e6d2;
+}
+.surat{
+    background: url('gambar/Bg.png');
+    background-size: cover;
+    width: 800px;
+    padding: 40px;
+    text-align: center;
+    border: 5px solid #a57c3b;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.content img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border: 3px solid #333;
+    border-radius: 5px;
+}
+.info {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.info b {
+    display: inline-block;
+    width: 120px;
+}
